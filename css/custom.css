@@ -1,0 +1,90 @@
+/*General*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+#clearfix{
+	clear: both;
+}
+ol, ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+input{
+	border-radius: 5px;
+	border: 1px #ccc solid;
+	padding: 5px;
+}
+
+
+/*Navbar*/
+nav{
+	position: fixed;
+	background: rgba(147, 249, 20, 0.64);
+	width: 100%;
+	padding: 10px;
+	z-index: 10;
+	height: 60px;
+	top:0;
+}
+#nav-right{
+	float:right;
+}
+#nav-left{
+	float:left;
+}
+/*Body*/
+body #body{
+	margin: 60px auto 0;
+	width: 100%;
+}
+
+#slide-text{
+	width: 60%;
+	padding: 50px 20px;
+}
+#slide-image{
+	width: 40%;
+	padding: 50px 20px;
+}
+#slide1{
+	background: url("../images/stock1.jpg") fixed no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+#slide2 #slide-text{
+	font-size: 150%;
+}
+#slide3{
+	background: url("../images/stock2.jpg") fixed no-repeat;
+	background-size: cover;
+	height: 600px;
+	width: 100%;
+}
+.scrollable{
+	height: 400px;
+	width: 100%;
+	background: #fff;
+	color: #000;
+	padding: 0px 40px;
+}
+
+/*Footer*/
+footer{
+	text-align: center;
+	background: #0ee;
+	padding: 20px;	
+}
+
+footer ul{
+	margin-top: 20px;
+}
+
+footer ul li{
+	display: inline;
+	padding: 5px;
+}
