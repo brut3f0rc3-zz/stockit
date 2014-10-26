@@ -18,7 +18,15 @@ input{
 	border: 1px #ccc solid;
 	padding: 5px;
 }
-
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
 
 /*Navbar*/
 nav{
@@ -73,6 +81,25 @@ body #body{
 	padding: 0px 40px;
 }
 
+.thumb-circle{
+	border-radius: 100px;
+	padding: 10px;
+}
+.contact{
+	width: 30%;
+	text-align: center;
+}
+.contact-name{
+	line-height: 80%;
+}
+.contact-name a:hover{
+	text-decoration: none;
+}
+.contact-name-main{
+	font-size: 200%;
+	font-family: 'Jim Nightshade', sans-serif;
+	text-transform: uppercase;
+}
 /*Footer*/
 footer{
 	text-align: center;
