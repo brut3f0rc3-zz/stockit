@@ -1,42 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>StockIt</title>
-	<!--CSS-->
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="fa/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/custom.css">
-	<!--Fonts-->
-	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Alegreya+Sans+SC' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Kalam' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Jim+Nightshade' rel='stylesheet' type='text/css'>
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-	$(".loader").fadeOut("slow");
-})
-</script>
-</head>
-<body>
-	<div class="loader"></div>
-	<nav>
-		<div id="nav-left">
-			<!--Stock It Logo-->
-		</div>
-
-		<div id="nav-right">
-
-			<input type="text" placeholder="john@doe.in">
-			<input type="text" placeholder="password">
-			<button class="btn btn-default">Login</button>
-			<button class="btn btn-default">Register</button>
-		</div>
-		<div id="clearfix"></div>
-		
-	</nav>
+<?php require('header.php'); ?>
 	<div id="body">
 		<div id="slide1"></div>
 		<div id="slide2" class="scrollable">
@@ -53,7 +15,7 @@ $(window).load(function() {
 			<div id="slide-image" style="float:right">
 				<img src="images/stock3.png" height="70%" width="70%">
 			</div>
-			<div id="clearfix"></div>
+			<div class="clearfix"></div>
 		</div>
 		<div id="slide3"></div>
 		<div id="slide4" class="scrollable">
@@ -83,16 +45,4 @@ $(window).load(function() {
 			</div>
 		</div>
 	</div>
-	<footer>
-		&copy; <a href="http://geekonix.org">Geekonix</a>. 2014. All rights reserved.
-		<ul>
-			<li><a href="http://facebook.com/stockit"><i class="fa fa-facebook-square fa-lg"></i></a></li>
-			<li><a href="http://twitter.com/stockit"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-			<li><a href="http://github.com/brut3f0rc3/stockit"><i class ="fa fa-github-square fa-lg"></i></a></li>
-		</ul>
-	</footer>
-	<script type="text/javascript">
-		//Login and registration scripts here
-	</script>	
-</body>
-</html>
+<?php require('footer.php'); ?>
